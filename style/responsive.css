@@ -1,0 +1,119 @@
+@media (max-width: 1399.98px) {
+    .home__banner{width: 49rem;height: 49rem;}
+    .article_btn{
+    max-width: 24rem;
+}
+.footer_content__section--aboutus{
+    max-width: 35rem;
+}
+}
+
+@media (max-width: 1200px){
+    .home_status{gap: 3rem;}
+    
+    .home__banner{width: 40rem;height: 40rem;}  
+.home_texts{
+    padding: 0;
+}
+.home_title{
+font-size: 2.8rem;
+}
+.email_box,.home_caption{
+    max-width: 44rem;
+}
+
+.footer_content__section--aboutus{
+    max-width: 27rem;
+    padding-left: 2rem;
+}
+
+}
+
+@media (max-width: 992px) { 
+.nav__wraper,.nav__menu{gap: 1.5rem;}
+.logo__svg{width: 16rem;}
+.row--helper{flex-direction: column-reverse; text-align: center; }
+.home_texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 3rem;
+}
+.home_title__first-line,.home_status{justify-content: center;}
+.email_box{max-width: 100%;}
+.home_status{gap: 7rem;}
+.article_btn{
+    max-width: 18rem;
+}
+.max-sm{display: none;}
+.footer_content__section--aboutus{
+   width: 100%;
+   padding-left: 0;
+   max-width: 100%;
+}
+.footer_content{
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: start;
+}
+.footer_content__section:last-child{
+    width: 100%;
+}
+
+ }
+
+@media (max-width: 767.98px) {  
+.mobile_menu__btn{display: block;}
+.login__btn,.nav__menu{display: none;}
+.logo__svg{width: 20rem;}
+}
+
+
+@media (max-width: 575.98px) { 
+.courses_head,.home_status{gap: 1.8rem;}
+.home_title{
+font-size: 2.3rem;}
+
+.footer__title{font-size: 1.8rem;}
+.footer_content{gap: 1.5rem;}
+
+    .home__banner{width: 28rem;height: 28rem;}  
+
+.home__caption{font-size: 1.4rem;}
+.head_title{font-size: 1.7rem;}
+.head_line{padding: 0;}
+.head_svg{width: 1.3rem;}
+.article_btn{
+    max-width: 30rem;
+}
+.max-sm{display: inline-block;}
+.index_article{
+    padding: 2rem;
+}
+.index_article__box{width: 0;}
+}
+ 
+
+@media (max-width: 350px){
+
+    .home__banner{width: 24rem;height: 24rem;}  
+
+.home_title{
+font-size: 1.8rem;
+}
+.home_status{flex-wrap: wrap;}
+.mobile_menu{width:70%;}
+.logo__svg{width: 16rem;}
+.courses_head{gap: 1rem;
+flex-wrap: wrap;}
+.article_btn{
+    max-width: 25rem;
+}
+}
+
+@media (min-width: 767.98px){
+.mobile_menu{display: none;}
+
+}

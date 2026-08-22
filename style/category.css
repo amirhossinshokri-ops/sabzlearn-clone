@@ -1,0 +1,64 @@
+@import "reset.css";
+@import "fonts.css";
+@import "default.css";
+
+@import "./nav.css";
+@import "./courses.css";
+@import "./article.css";
+@import "./footer.css";
+
+
+
+.category_bar{
+
+background-color: #242424;
+color: #fff;
+margin: 5rem 0;
+border-radius: 1rem;
+text-align: center;
+}
+.category_title{
+width: 100%;
+padding: 4rem 0;
+}
+.category_title h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.category_bar__boxes{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 4rem;
+padding: 4rem 0;
+}
+.category_bar__box{
+display: flex;
+align-items: center;
+gap: 1rem;
+}
+.category_bar__box__icon{
+
+padding: 1.5rem;
+background-color: #343434;
+border-radius: 1rem;
+
+}
+.category_bar__box__icon svg{
+font-size: 2.5rem !important;
+width: 2.5rem;
+}
+.category_bar__box__caption{
+display: flex;
+flex-direction: column;
+gap: 1.2rem;
+text-align: right;
+}
+.category_bar__box__caption_num{
+
+
+}
+.category_bar__box__caption_sub{
+
+
+}

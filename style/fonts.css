@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "iRansans";
+    src: url(../fonts/IRANSans/IRANSans.ttf) format("truetype");
+}
+@font-face {
+    font-family: "iranYekan";
+    src: url(../fonts/iranykan/Qs_Iranyekan.ttf) format("truetype");
+}
+@font-face {
+    font-family: "iranYekan-med";
+    src: url(../fonts/iranykan/Qs_Iranyekan\ medium.ttf) format("truetype");
+}
+@font-face {
+    font-family: "iranYekan-bold";
+    src: url(../fonts/iranykan/Qs_Iranyekan\ bold.ttf) format("truetype");
+}

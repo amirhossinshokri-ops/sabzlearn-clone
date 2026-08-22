@@ -1,0 +1,159 @@
+header {
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0;
+}
+.nav__wraper {
+  display: flex;
+  gap: 6rem;
+}
+.logo {
+}
+.logo__icon {
+}
+.logo__svg {
+}
+.nav__menu {
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.nav__menu__item {
+  position: relative;
+  padding: 0.5rem 0 2rem 0;
+}
+.nav__menu__item:hover .nav__menu__link {
+  color: #2bce56;
+}
+
+.nav__menu__item:hover .drop_svg {
+  transform: rotate(180deg);
+  transition: all 250ms ease;
+  color: transparent;
+  stroke: var(--primary-color) !important;
+}
+.nav__menu__item:hover .nav__menu__item__drop {
+  visibility: visible;
+  opacity: 1;
+  transition: all 200ms ease;
+}
+
+.drop_svg {
+  transition: all 200ms ease;
+  stroke: black;
+}
+.nav__menu__link {
+  text-decoration: none;
+  color: var(--dark-color);
+  font-size: 1.5rem;
+}
+.nav__menu__item__drop {
+  visibility: hidden;
+  z-index: 2;
+  opacity: 0;
+  position: absolute;
+  top: 4rem;
+  transition: all 200ms ease;
+  box-shadow: 0px 0px 9px rgba(43, 206, 86, 0.3);
+  min-width: 160px;
+  background-color: #fff;
+}
+.nav__menu__item__drop__item {
+  padding: 1rem 2rem;
+  display: block;
+}
+.nav__menu__item__drop__item:hover {
+  color: #2bce56 !important;
+  background-color: #e3e3e3;
+}
+.nav__menu__item__drop__link {
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+  font-size: 1.4rem;
+}
+
+.login {
+  gap: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+.login__btn {
+  display: block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.login__icon {
+}
+.login__svg {
+  stroke: var(--dark-color);
+}
+.login__btn:hover {
+  color: #e3e3e3;
+  background-color: var(--primary-color);
+}
+/* ================================
+            mobile menu
+============================== */
+.mobile_menu__btn {
+  display: none;
+  cursor: pointer;
+}
+.mobile_menu_btn__svg {
+}
+.mobile_menu {
+  background-color: #fff;
+  top: 0;
+  right: -28rem;
+  bottom: 0;
+  z-index: 3;
+  position: fixed;
+  width: 28rem;
+  flex-direction: column;
+  display: flex;
+  gap: 1rem;
+  transition: all 200ms ease;
+}
+.mobile_menu.mobile_menu--active {
+  right: 0;
+}
+.mobile_menu__top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+  background-color: rgba(227, 227, 227, 0.5);
+  font-family: "iranYekan-bold";
+  font-weight: bold;
+  color: black;
+}
+.mobile_menu__bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 0 2rem;
+  margin-top: 2rem;
+}
+.mobile_menu__title {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+.mobile_menu__items {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+.mobile_menu__links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

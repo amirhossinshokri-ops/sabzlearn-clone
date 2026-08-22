@@ -1,0 +1,122 @@
+footer {
+  background-color: #242424;
+  color: #d6d6d6;
+  margin: 7rem 0;
+  padding: 4rem 3rem;
+  border-radius: 2rem;
+}
+.footer_wraper {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_content__section--aboutus {
+  width: 38rem;
+}
+.footer_content__section {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.footer__title {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: bold;
+}
+.footer_caption {
+  line-height: 2.5rem;
+}
+
+.footer__items {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.footer__item {
+  position: relative;
+}
+.footer__link::before {
+  content: "";
+  width: 0.5rem;
+  height: 0.2rem;
+  background-color: var(--primary-color);
+  position: absolute;
+  border-radius: 0.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 6px;
+  right: -15px;
+}
+.footer__link {
+  color: #d6d6d6;
+}
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+.footer_contact__support {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.footer_content__section__telegram {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer_content__section__support_caption {
+}
+.footer_content__section__support_id {
+}
+.footer_content__section__email {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__social {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__social_links {
+  display: flex;
+  gap: 1rem;
+}
+.footer__social_link {
+  background-color: #ffffff1a;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  transition: all 200ms ease;
+}
+.footer__social_link:hover {
+  background-color: var(--primary-color);
+}
+.footer__social_link:last-child {
+  background-color: var(--primary-color);
+}
+.footer__social_link svg {
+  font-size: 1.5rem !important;
+}
+.footer_copyright {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff1a;
+  padding: 2.2rem;
+  border-radius: 1rem;
+  flex-wrap: wrap;
+}
+.footer_copyright div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.footer_copyright svg {
+  font-size: 1.5rem !important;
+}

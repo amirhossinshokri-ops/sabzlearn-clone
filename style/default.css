@@ -1,0 +1,62 @@
+:root {
+  --primary-font: "iRansans";
+  --primary-color: #2bce56;
+  --white-color: #fff;
+  --dark-color: #464749;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--dark-color);
+  line-height: 1.6rem;
+  font-size: 1.4rem;
+  background-color: #f7f7f7;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-color);
+  transition: all 200ms ease;
+}
+
+i {
+  user-select: none;
+}
+
+/* finish defualts */
+
+/* helper classes */
+.fadeRight {
+  background: linear-gradient(to left, #f7f7f7, transparent);
+}
+.fadeLeft {
+  background: linear-gradient(to right, #f7f7f7, transparent);
+}
+.bg_w {
+  background-color: #fff;
+}
+.border_2 {
+  border: 2px solid #fff;
+}
+.green_hover {
+}
+.m_0 {
+  margin: 0 !important;
+}
+.mb_6 {
+  margin-bottom: 6rem;
+}
+.w-big {
+  width: 35rem;
+}
