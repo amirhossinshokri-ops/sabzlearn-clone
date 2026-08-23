@@ -8,14 +8,18 @@
 @import "./footer.css";
 
 
+/* ================================
+         category title
+================================ */
 
 .category_bar{
 
 background-color: #242424;
 color: #fff;
-margin: 5rem 0;
+margin: 12rem 0;
 border-radius: 1rem;
 text-align: center;
+
 }
 .category_title{
 width: 100%;
@@ -61,4 +65,127 @@ text-align: right;
 .category_bar__box__caption_sub{
 
 
+}
+
+/* ======================================
+              category side
+========================================= */
+
+.category_page{
+margin: 5rem 0;
+}
+.courses_side{
+display: flex;
+flex-direction: column;
+/* max-width: 30rem; */
+flex-shrink: 0;
+}
+.courses_filter{
+    border-radius: 2rem;
+background-color: #fff;
+padding: 4rem;
+
+display: flex;
+flex-direction: column;
+gap: 2rem;
+margin-bottom: 3rem;
+}
+.courses_filter__top{
+font-size: 1.6rem !important;
+color: var(--dark-color);
+display: flex;
+align-items: center;
+gap: 1rem;
+border-bottom: .5px #f0f0f0 solid;
+padding-bottom: 2rem;
+}
+.courses_filter__checkbox{
+
+    flex-direction: column;
+display: flex;
+gap: 2rem;
+}
+.radio{
+display: flex;
+align-items: center;
+gap: 1rem;
+font-size: 1.6rem;
+cursor: pointer;
+position: relative;
+}
+.radio__input{
+
+position: absolute;
+width: 0;
+height: 0;
+}
+.radio__marker{
+width: 2rem;
+height: 2rem;
+position: relative;
+border-radius: 3rem;
+background-color: #f7f7f7;
+border:6px solid #f7f7f7;
+}
+.radio__input:checked~.radio__marker{
+    border-color: var(--primary-color);
+}
+.radio-caption{
+
+
+}
+
+
+
+.courses_checkbox{
+
+    margin: 1.5rem 0;
+padding: 3rem;
+background-color: #fff;
+border-radius: 2rem;
+}
+.toggle{
+display: flex;
+align-items: center;
+justify-content: space-between;
+cursor: pointer;
+font-size: 1.6rem;
+}
+.text-caption{
+
+}
+.toggle__input{
+width: 0;
+height: 0;
+position: absolute;
+}
+.toggle__marker{
+
+position: relative;
+width: 5rem;
+height: 2.5rem;
+display: block;
+border-radius: 3rem;
+transition: all 300ms ease-out;
+background-color: #e3e3e3;
+}
+.toggle__marker::after{
+position: absolute;
+content: "";
+width: 1.5rem;
+height: 1.5rem;
+background-color: #fff;
+border-radius: 100%;
+bottom: 0;
+top: 5px;
+right: 5px;
+/* left: 5px; */
+transition: all 200ms ease-out;
+}
+
+.toggle__input:checked~.toggle__marker {
+    background-color: var(--primary-color);
+}
+.toggle__input:checked~.toggle__marker::after {
+transform: translateX(-25px);
 }

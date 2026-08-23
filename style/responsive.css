@@ -93,6 +93,22 @@ font-size: 2.3rem;}
     padding: 2rem;
 }
 .index_article__box{width: 0;}
+
+.courses_box--flat{
+    flex-direction: row;
+  
+}
+.courses_box__cover--flat{
+    height: 100%;
+    /* object-fit: contain; */
+    object-position: center;
+}
+.category_bar__box{
+    flex-direction: column;
+}
+.category_bar__box__caption{
+    text-align: center;
+}
 }
  
 
