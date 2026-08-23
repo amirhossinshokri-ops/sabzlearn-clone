@@ -1,0 +1,10 @@
+@import "reset.css";
+@import "fonts.css";
+@import "default.css";
+
+@import "./nav.css";
+@import "./courses.css";
+@import "./article.css";
+@import "./footer.css";
+
+
