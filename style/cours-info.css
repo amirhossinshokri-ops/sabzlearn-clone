@@ -1,0 +1,66 @@
+@import "reset.css";
+@import "fonts.css";
+@import "default.css";
+
+@import "./nav.css";
+@import "./courses.css";
+@import "./article.css";
+@import "./footer.css";
+
+
+.course-info-header{
+
+    
+}
+.course-info-header_texts{
+
+    
+}
+.course-info__head{
+
+    
+}
+.course-info__title{
+
+    
+}
+.course-info__caption{
+
+    
+}
+.course-info__value{
+
+    
+}
+.course-info__discount{
+
+    
+}
+.course-info__discount-times{
+
+    
+}
+.course-info__discount-time{
+
+    
+}
+.course-info__price{
+
+    
+}
+.course-info__btn{
+
+    
+}
+.course-info__price-num{
+
+    
+}
+.course-info__price-first-offer{
+
+    
+}
+.course-info__price-final-offer{
+
+    
+}
