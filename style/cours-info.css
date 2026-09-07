@@ -9,58 +9,131 @@
 
 
 .course-info-header{
-
+margin: 10rem 0;
     
 }
 .course-info-header_texts{
+display: flex;
+flex-direction: column;
+gap: 5rem;
+}
+.course-info__nav{
+display: flex;
+align-items: center;
+gap: .5rem;
+}
+.course-info__nav svg{
 
-    
+    transform: rotate(90deg);
+    font-size: 1.2rem !important;
+
+}
+.course-info__nav a:hover{
+
+color: var(--primary-color);
+}
+.course-info__nav a{
+font-size: 1rem;
+
 }
 .course-info__head{
-
-    
+display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 .course-info__title{
 
-    
+        font-size: 2.5rem;
+        color: black;
+    font-weight: bold;
 }
 .course-info__caption{
-
-    
+font-size: 1.6rem;
+    line-height: 3rem;
 }
 .course-info__value{
-
-    
+display: flex;
+flex-direction: column;
+    gap: 2.5rem;
 }
 .course-info__discount{
-
-    
+background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 2.5rem ;
+    border-radius: 1rem;
 }
 .course-info__discount-times{
-
-    
+display: flex;
+    align-items: center;
+    gap: .8rem;
 }
 .course-info__discount-time{
 
-    
+    display: flex;
+    gap: .5rem;
+    color: black;
+}
+.text-caption{
+    font-size: 1.8rem;
+    font-weight: bold;
 }
 .course-info__price{
-
+display: flex;
+align-items: center;
+justify-content: space-between;
     
 }
 .course-info__btn{
-
-    
+border: none;
+    outline: none;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    padding: 1.5rem 4rem;
+    border-radius: 1rem;
+    color: #fff;
 }
 .course-info__price-num{
-
-    
+display: flex;
+gap: 2rem;
+font-size: 1.8rem;
 }
 .course-info__price-first-offer{
-
-    
+text-decoration: line-through;
+    opacity: .8;
 }
 .course-info__price-final-offer{
 
-    
+        color: black;
+
+}
+.course-info__banner{
+
+}
+.course-info__cover{
+    max-width: 100%;
+height: 100%;
+border-radius: 1rem;
+}
+
+
+.course_pre_info{
+
+    display: flex;
+    background-color: #fff;
+border-radius: 1rem;
+padding: 2rem ;
+gap: 2rem;
+align-items: center;
+}
+.course_pre_info__svg{
+
+font-size: 5rem !important;
+}
+.course_pre_info__texts{
+display: flex;
+flex-direction: column;
+gap: 1.6rem;
+
 }
