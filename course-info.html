@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>course</title>
-    <link rel="stylesheet" href="./vendor/Bootstrap/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="./vendor/Bootstrap/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./style/main.css">
     <link rel="stylesheet" href="./vendor/SwiperSlider/swiper-bundle.min.css">
     <link rel="stylesheet" href="./vendor/FontAwesome5/all.min.css">
     <link rel="stylesheet" href="./style/cours-info.css">
     <link rel="stylesheet" href="./style/responsive.css">
-    <link rel="stylesheet" href="./style/main.css">
 </head>
-<body class="bg-red-500">
+<body >
 
     <header>
 <div class="container">
@@ -234,18 +234,18 @@
 
 
 <div class="container">
-    <div class="row align-items-center">
-<div class="col-6">
+    <div class="lg:grid grid-cols-2 gap-x-8 xl:gap-x-14 mb-8 sm: mb-15 lg:mb-20 flex flex-col-reverse">
+<div class="">
 
 
 
     <div class="course-info-header_texts">
-<nav  class="course-info__nav">
+<nav  class="course-info__nav mt-2">
     <!----><a href="/" class="text-nowrap hover:text-brand transition-colors">خانه</a>
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--linear size-3 rotate-90 text-gray-400 shrink-0" width="1em" height="1em" viewBox="0 0 24 24" style="font-size: 1rem;"><g fill="none"><path d="M19.92 8.94995L13.4 15.47C12.63 16.24 11.37 16.24 10.6 15.47L4.08002 8.94995" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></g>
+    <svg class="-rotate-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--linear size-3 rotate-90 text-gray-400 shrink-0" width="1em" height="1em" viewBox="0 0 24 24" style="font-size: 1rem;"><g fill="none"><path d="M19.92 8.94995L13.4 15.47C12.63 16.24 11.37 16.24 10.6 15.47L4.08002 8.94995" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></g>
     </svg>
     <a href="/courses/" class="text-nowrap hover:text-brand transition-colors">دوره ها</a>
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--linear size-3 rotate-90 text-gray-400 shrink-0" width="1em" height="1em" viewBox="0 0 24 24" style="font-size: 1rem;"><g fill="none"><path d="M19.92 8.94995L13.4 15.47C12.63 16.24 11.37 16.24 10.6 15.47L4.08002 8.94995" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></g>
+    <svg class="-rotate-1 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--linear size-3 rotate-90 text-gray-400 shrink-0" width="1em" height="1em" viewBox="0 0 24 24" style="font-size: 1rem;"><g fill="none"><path d="M19.92 8.94995L13.4 15.47C12.63 16.24 11.37 16.24 10.6 15.47L4.08002 8.94995" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></g>
     </svg>
     <a href="/courses/back-end/" class="text-nowrap hover:text-brand transition-colors">بک اند</a>
 </nav>
@@ -257,7 +257,7 @@
 <div class="course-info__value">
 
    <div class="course-info__discount">
-    <span class="h3 fw-bold md:text-body lg:text-t4 font-bold text-danger">60% تخفیف شگفت انگیز</span>
+    <span class="h3 fw-bold md:text-body lg:text-t4 font-bold text-red-600">60% تخفیف شگفت انگیز</span>
 
 <div class="flex items-center gap-x-1 md:gap-x-2 course-info__discount-times">
     <div class="flex items-center gap-x-1.5 course-info__discount-time ">
@@ -314,7 +314,7 @@
 
 
 
-<div class="col-6">
+<div class="">
 
 <div class="course-info__banner ">
 
@@ -351,279 +351,103 @@
 
 <div class="container">
 
-<main>
-<div class="row">
+<main class="flex flex-col lg:flex-row gap-10  items-start">
 
-<div class="col-9">
-    <section class="course-info-details">
+<section class=" grow-0 flex flex-col gap-20 ">
 
+<div class=" grid grid-cols-8 lg:grid-cols-12 gap-4 sm:gap-7">
 
-<div class="row  gird grid-col-5 ">
-<div class="col-4">
-
-    <div class="course_pre_info">
-        
-<svg class="course_pre_info__svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--accent size-8 md:size-10 xl:size-12" width="1em" height="1em" viewBox="0 0 48 48" style="font-size: 1rem;"><g fill="none"><path d="M13.7617 36.3V32.16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+<div class="bg-white  flex col-span-4 flex-row items-center gap-x-6 p-10 rounded-xl">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--accent size-20 " width="1em" height="1em" viewBox="0 0 48 48" style="font-size: 1rem;"><g fill="none"><path d="M13.7617 36.3V32.16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
 <path d="M24 36.3V28.02" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
 <path d="M34.2383 36.3V23.86" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
 <path d="M34.2417 11.7L33.3217 12.78C28.2217 18.74 21.3817 22.96 13.7617 24.86" stroke="#1EB35B" stroke-width="1.5" stroke-linecap="round"></path>
 <path d="M28.3789 11.7H34.2389V17.54" stroke="#1EB35B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-
 <path d="M18 44H30C40 44 44 40 44 30V18C44 8 40 4 30 4H18C8 4 4 8 4 18V30C4 40 8 44 18 44Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
 
-<div class="course_pre_info__texts">
-
-<p>در حال برگزاری</p>
+<div class=" flex flex-col gap-y-6 ">
+<span class="text-black font-bold">در حال برگزاری</span>
 <span>وضعیت دوره</span>
 
-
 </div>
-
 </div>
-
-</div>
-<div class="col-4">
-
-    <div class="course_pre_info">
-        
-<svg class="course_pre_info__svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--accent size-8 md:size-10 xl:size-12" width="1em" height="1em" viewBox="0 0 48 48" style="font-size: 1rem;"><g fill="none"><path d="M13.7617 36.3V32.16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+<div class="bg-white col-span-4 flex flex-row items-center gap-x-6 p-10 rounded-xl">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--accent size-20 " width="1em" height="1em" viewBox="0 0 48 48" style="font-size: 1rem;"><g fill="none"><path d="M13.7617 36.3V32.16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
 <path d="M24 36.3V28.02" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
 <path d="M34.2383 36.3V23.86" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
 <path d="M34.2417 11.7L33.3217 12.78C28.2217 18.74 21.3817 22.96 13.7617 24.86" stroke="#1EB35B" stroke-width="1.5" stroke-linecap="round"></path>
 <path d="M28.3789 11.7H34.2389V17.54" stroke="#1EB35B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-
 <path d="M18 44H30C40 44 44 40 44 30V18C44 8 40 4 30 4H18C8 4 4 8 4 18V30C4 40 8 44 18 44Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
 
-<div class="course_pre_info__texts">
-
-<p>در حال برگزاری</p>
+<div class=" flex flex-col gap-y-6 ">
+<span class="text-black font-bold">در حال برگزاری</span>
 <span>وضعیت دوره</span>
 
-
 </div>
-
 </div>
-
-</div>
-<div class="col-4">
-
-    <div class="course_pre_info">
-        
-<svg class="course_pre_info__svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--accent size-8 md:size-10 xl:size-12" width="1em" height="1em" viewBox="0 0 48 48" style="font-size: 1rem;"><g fill="none"><path d="M13.7617 36.3V32.16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+<div class="bg-white col-span-4 flex flex-row items-center gap-x-6 p-10 rounded-xl">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--accent size-20 " width="1em" height="1em" viewBox="0 0 48 48" style="font-size: 1rem;"><g fill="none"><path d="M13.7617 36.3V32.16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
 <path d="M24 36.3V28.02" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
 <path d="M34.2383 36.3V23.86" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
 <path d="M34.2417 11.7L33.3217 12.78C28.2217 18.74 21.3817 22.96 13.7617 24.86" stroke="#1EB35B" stroke-width="1.5" stroke-linecap="round"></path>
 <path d="M28.3789 11.7H34.2389V17.54" stroke="#1EB35B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-
 <path d="M18 44H30C40 44 44 40 44 30V18C44 8 40 4 30 4H18C8 4 4 8 4 18V30C4 40 8 44 18 44Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
 
-<div class="course_pre_info__texts">
-
-<p>در حال برگزاری</p>
+<div class=" flex flex-col gap-y-6 ">
+<span class="text-black font-bold">در حال برگزاری</span>
 <span>وضعیت دوره</span>
 
-
 </div>
-
 </div>
-
-</div>
-<div class="col-4">
-
-    <div class="course_pre_info">
-        
-<svg class="course_pre_info__svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--accent size-8 md:size-10 xl:size-12" width="1em" height="1em" viewBox="0 0 48 48" style="font-size: 1rem;"><g fill="none"><path d="M13.7617 36.3V32.16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+<div class="bg-white col-span-4 flex flex-row items-center gap-x-6 p-10 rounded-xl">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--accent size-20 " width="1em" height="1em" viewBox="0 0 48 48" style="font-size: 1rem;"><g fill="none"><path d="M13.7617 36.3V32.16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
 <path d="M24 36.3V28.02" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
 <path d="M34.2383 36.3V23.86" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
 <path d="M34.2417 11.7L33.3217 12.78C28.2217 18.74 21.3817 22.96 13.7617 24.86" stroke="#1EB35B" stroke-width="1.5" stroke-linecap="round"></path>
 <path d="M28.3789 11.7H34.2389V17.54" stroke="#1EB35B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-
 <path d="M18 44H30C40 44 44 40 44 30V18C44 8 40 4 30 4H18C8 4 4 8 4 18V30C4 40 8 44 18 44Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
 
-<div class="course_pre_info__texts">
-
-<p>در حال برگزاری</p>
+<div class=" flex flex-col gap-y-6 ">
+<span class="text-black font-bold">در حال برگزاری</span>
 <span>وضعیت دوره</span>
 
-
 </div>
-
 </div>
-
-</div>
-<div class="col-4">
-
-    <div class="course_pre_info">
-        
-<svg class="course_pre_info__svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--accent size-8 md:size-10 xl:size-12" width="1em" height="1em" viewBox="0 0 48 48" style="font-size: 1rem;"><g fill="none"><path d="M13.7617 36.3V32.16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+<div class="bg-white col-span-4 flex flex-row items-center gap-x-6 p-10 rounded-xl">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--accent size-20 " width="1em" height="1em" viewBox="0 0 48 48" style="font-size: 1rem;"><g fill="none"><path d="M13.7617 36.3V32.16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
 <path d="M24 36.3V28.02" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
 <path d="M34.2383 36.3V23.86" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
 <path d="M34.2417 11.7L33.3217 12.78C28.2217 18.74 21.3817 22.96 13.7617 24.86" stroke="#1EB35B" stroke-width="1.5" stroke-linecap="round"></path>
 <path d="M28.3789 11.7H34.2389V17.54" stroke="#1EB35B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-
 <path d="M18 44H30C40 44 44 40 44 30V18C44 8 40 4 30 4H18C8 4 4 8 4 18V30C4 40 8 44 18 44Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
 
-<div class="course_pre_info__texts">
-
-<p>در حال برگزاری</p>
+<div class=" flex flex-col gap-y-6 ">
+<span class="text-black font-bold">در حال برگزاری</span>
 <span>وضعیت دوره</span>
 
-
 </div>
-
 </div>
-
-</div>
-<div class="col-4">
-
-    <div class="course_pre_info">
-        
-<svg class="course_pre_info__svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--accent size-8 md:size-10 xl:size-12" width="1em" height="1em" viewBox="0 0 48 48" style="font-size: 1rem;"><g fill="none"><path d="M13.7617 36.3V32.16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+<div class="bg-white col-span-4 flex flex-row items-center gap-x-6 p-10 rounded-xl">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--accent size-20 " width="1em" height="1em" viewBox="0 0 48 48" style="font-size: 1rem;"><g fill="none"><path d="M13.7617 36.3V32.16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
 <path d="M24 36.3V28.02" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
 <path d="M34.2383 36.3V23.86" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
 <path d="M34.2417 11.7L33.3217 12.78C28.2217 18.74 21.3817 22.96 13.7617 24.86" stroke="#1EB35B" stroke-width="1.5" stroke-linecap="round"></path>
 <path d="M28.3789 11.7H34.2389V17.54" stroke="#1EB35B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-
 <path d="M18 44H30C40 44 44 40 44 30V18C44 8 40 4 30 4H18C8 4 4 8 4 18V30C4 40 8 44 18 44Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
 
-<div class="course_pre_info__texts">
-
-<p>در حال برگزاری</p>
+<div class=" flex flex-col gap-y-6 ">
+<span class="text-black font-bold">در حال برگزاری</span>
 <span>وضعیت دوره</span>
 
-
+</div>
 </div>
 
 </div>
 
-</div>
+        <section class="relative  index_article relative !m-0 ">
 
 
-
-</div>
-
-
-
-<div class="course_sessions">
-
-<!-- <div class="course_session">
-
-    <div class="course_session__head">
-        <span>آشنایی با وب</span>
-<div class="course_session__info">
-<div class="course_session__time">
-<span>0m</span>
-<span>0 lesson</span>
-
-</div>
-
-<svg class="course_session__svg"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--bold md:size-5 [.active_&amp;]:-rotate-90 transition-all" style="font-size:1rem;" width="1em" height="1em" viewBox="0 0 20 20"><g fill="none"><path d="M11.6518 4.43337L8.97682 7.10837L7.33516 8.7417C6.64349 9.43337 6.64349 10.5584 7.33516 11.25L11.6518 15.5667C12.2185 16.1334 13.1852 15.725 13.1852 14.9334L13.1852 10.2584V5.0667C13.1852 4.2667 12.2185 3.8667 11.6518 4.43337Z" fill="currentColor"></path></g></svg>
-</div>
-
-
-    </div>
-    <div class="course_session__video"></div>
-</div> -->
-<div class="accordion" id="accordionPanelsStayOpenExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-        Accordion Item #1
-      </button>
-    </h2>
-    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-      <div class="accordion-body">
-        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-        Accordion Item #2
-      </button>
-    </h2>
-    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-      <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-        Accordion Item #3
-      </button>
-    </h2>
-    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-      <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-</section>
-</div>
-
-
-
-<div class="col-3">
-<aside></aside>
-
-
-</div>
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-</main>
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-   <div class="container">
-        
-        
-        <section class="index_article relative">
-
-
-            <div class="index_article__box">
+            <div class="index_article__box hidden">
 
 
     </div>
@@ -651,7 +475,546 @@
 
 </section>
 
+
+<section class=" bg-white flex flex-col gap-8 py-10 px-9 rounded-2xl">
+<div class="header flex  items-center gap-x-3 ">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--accent size-8 md:size-15" width="1em" height="1em" viewBox="0 0 36 36" style="font-size: 1rem;"><g fill="none"><path d="M32.8957 10.14L27.8407 30.4351C27.4807 31.9501 26.1307 33 24.5707 33H4.86068C2.59568 33 0.975706 30.7799 1.65071 28.6049L7.96569 8.32507C8.40069 6.91507 9.70572 5.93994 11.1757 5.93994H29.6257C31.0507 5.93994 32.2357 6.80995 32.7307 8.00995C33.0157 8.65495 33.0757 9.39001 32.8957 10.14Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"></path>
+<path d="M24 33H31.17C33.105 33 34.62 31.365 34.485 29.43L33 9" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M14.5195 9.57001L16.0795 3.09009" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M24.5703 9.58502L25.9803 3.07507" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M11.5508 18H23.5508" stroke="#1EB35B" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M10.0508 24H22.0508" stroke="#1EB35B" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
+<h2 class=" text-black text-3xl font-bold">جلسات</h2>
 </div>
+
+<div  class="overflow-hidden rounded-md  border-gray-200  flex flex-col gap-y-8">
+
+    <!-- Accordion Item -->
+    <details class="group: border-solid border-gray-200 border-2 rounded-2xl py-4  bg-gray-100/30">
+
+        <summary
+            class="flex cursor-pointer list-none items-center justify-between px-5 py-4 text-2xl  font-medium text-gray-800 hover:bg-gray-50"
+        >
+
+            <span class="flex items-center gap-2">
+                <span class="text-gray-500 "></span>
+                جلسه اول دوره
+            </span>
+
+            <!-- Arrow -->
+            <svg
+                class="h-4 w-4 shrink-0 transition-transform duration-200 group-open:rotate-180"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+            >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m19 9-7 7-7-7"
+                />
+            </svg>
+
+        </summary>
+
+        <!-- Content -->
+        <div class="border-t border-gray-100 px-5 py-4 text-2xl leading-7 text-gray-600">
+
+            <p>
+                توضیحات جلسه اول دوره در این قسمت قرار می‌گیرد.
+            </p>
+
+        </div>
+
+    </details>
+    <!-- Accordion Item -->
+    <details class="group: border-solid border-gray-200 border-2 rounded-2xl py-4  bg-gray-100/30">
+
+        <summary
+            class="flex cursor-pointer list-none items-center justify-between px-5 py-4 text-2xl  font-medium text-gray-800 hover:bg-gray-50"
+        >
+
+            <span class="flex items-center gap-2">
+                <span class="text-gray-500 "></span>
+                جلسه اول دوره
+            </span>
+
+            <!-- Arrow -->
+            <svg
+                class="h-4 w-4 shrink-0 transition-transform duration-200 group-open:rotate-180"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+            >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m19 9-7 7-7-7"
+                />
+            </svg>
+
+        </summary>
+
+        <!-- Content -->
+        <div class="border-t border-gray-100 px-5 py-4 text-2xl leading-7 text-gray-600">
+
+            <p>
+                توضیحات جلسه اول دوره در این قسمت قرار می‌گیرد.
+            </p>
+
+        </div>
+
+    </details>
+    <!-- Accordion Item -->
+    <details class="group: border-solid border-gray-200 border-2 rounded-2xl py-4  bg-gray-100/30">
+
+        <summary
+            class="flex cursor-pointer list-none items-center justify-between px-5 py-4 text-2xl  font-medium text-gray-800 hover:bg-gray-50"
+        >
+
+            <span class="flex items-center gap-2">
+                <span class="text-gray-500 "></span>
+                جلسه اول دوره
+            </span>
+
+            <!-- Arrow -->
+            <svg
+                class="h-4 w-4 shrink-0 transition-transform duration-200 group-open:rotate-180"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+            >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m19 9-7 7-7-7"
+                />
+            </svg>
+
+        </summary>
+
+        <!-- Content -->
+        <div class="border-t border-gray-100 px-5 py-4 text-2xl leading-7 text-gray-600">
+
+            <p>
+                توضیحات جلسه اول دوره در این قسمت قرار می‌گیرد.
+            </p>
+
+        </div>
+
+    </details>
+
+
+ 
+
+</div>
+
+
+</section>
+
+
+
+
+
+<div  class="rounded-2xl border border-gray-200 bg-white px-15 py-10 ">
+
+    <!-- Header -->
+    <div class="mb-10 flex items-center   gap-4">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--accent size-7 md:size-14" style="font-size:1rem;" width="1em" height="1em" viewBox="0 0 36 36"><g fill="none"><path d="M13.5013 19.5C12.5113 19.995 11.6863 20.73 11.0713 21.645C10.7262 22.17 10.7262 22.83 11.0713 23.355C11.6863 24.27 12.5113 25.005 13.5013 25.5" stroke="#1EB35B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M22.8164 19.5C23.8064 19.995 24.6314 20.73 25.2464 21.645C25.5914 22.17 25.5914 22.83 25.2464 23.355C24.6314 24.27 23.8064 25.005 22.8164 25.5" stroke="#1EB35B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M13.5 33H22.5C30 33 33 30 33 22.5V13.5C33 6 30 3 22.5 3H13.5C6 3 3 6 3 13.5V22.5C3 30 6 33 13.5 33Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M3.34375 12.015L32.1738 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
+
+
+        <h2 class="text-3xl font-bold tracking-wide text-gray-800">
+            پیش نیاز ها
+        </h2>
+
+       
+
+    </div>
+
+
+    <!-- Item -->
+    <div class="flex items-center  gap-2 text-xl text-gray-600">
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--linear size-4" style="font-size:1rem;" width="1em" height="1em" viewBox="0 0 16 16"><g fill="none"><path d="M7.99992 14.6667C11.6666 14.6667 14.6666 11.6667 14.6666 8C14.6666 4.33333 11.6666 1.33333 7.99992 1.33333C4.33325 1.33333 1.33325 4.33333 1.33325 8C1.33325 11.6667 4.33325 14.6667 7.99992 14.6667Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M5.16675 7.99999L7.05341 9.88666L10.8334 6.11333" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
+        <span class="text-2xl">
+            سی شارپ
+        </span>
+
+    </div>
+
+</div>
+
+
+
+<section class="bg-white p-8 rounded-2xl flex flex-col gap-10">
+
+<div dir="rtl" class="flex items-center  gap-4">
+
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--accent size-7 md:size-14" style="font-size:1rem;" width="1em" height="1em" viewBox="0 0 36 36"><g fill="none"><path d="M26.97 16.185V22.185C26.97 22.575 26.955 22.95 26.91 23.31C26.565 27.36 24.18 29.37 19.785 29.37H19.185C18.81 29.37 18.45 29.55 18.225 29.85L16.425 32.25C15.63 33.315 14.34 33.315 13.545 32.25L11.745 29.85C11.55 29.595 11.115 29.37 10.785 29.37H10.185C5.40001 29.37 3 28.185 3 22.185V16.185C3 11.79 5.02501 9.40501 9.06001 9.06001C9.42001 9.01501 9.79501 9 10.185 9H19.785C24.57 9 26.97 11.4 26.97 16.185Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M32.9686 10.185V16.185C32.9686 20.595 30.9436 22.965 26.9086 23.31C26.9536 22.95 26.9686 22.575 26.9686 22.185V16.185C26.9686 11.4 24.5686 9 19.7836 9H10.1836C9.79359 9 9.41859 9.01501 9.05859 9.06001C9.40359 5.02501 11.7886 3 16.1836 3H25.7836C30.5686 3 32.9686 5.40001 32.9686 10.185Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M20.2432 19.875H20.2567" stroke="#1EB35B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M14.9932 19.875H15.0067" stroke="#1EB35B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M9.74325 19.875H9.75675" stroke="#1EB35B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
+    <h2 class="text-3xl font-bold text-gray-800">
+        نظرات
+    </h2>
+
+
+</div>
+
+
+<div
+    dir="rtl"
+    class="flex items-center justify-between   gap-4 rounded-3xl bg-amber-50 p-8"
+>
+      <span class="text-amber-700 text-2xl">
+            برای ثبت نظر ابتدا وارد حساب کاربری خود شوید.
+        </span>
+   
+   
+
+
+
+      
+
+    <div class="flex underline items-center gap-2 text-amber-700">
+  <a
+        href="#"
+        class="shrink-0 text-2xl  !text-amber-600 hover:underline"
+    >
+        ورود یا ثبت نام
+    </a>
+
+  
+
+        <svg class="size-5 rotate-90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--linear rotate-90" style="font-size:1rem;" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none"><path d="M19.92 8.94995L13.4 15.47C12.63 16.24 11.37 16.24 10.6 15.47L4.08002 8.94995" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
+    </div>
+
+</div>
+
+<article
+    dir="rtl"
+    class="rounded-md border border-gray-200 bg-white p-8"
+>
+
+    <!-- User -->
+    <div class="flex items-center  gap-6">
+
+
+  <!-- Avatar -->
+        <div
+            class="flex h-15 w-15 items-center justify-center rounded-full bg-gray-200 text-gray-400"
+        >
+            👤
+        </div>
+
+
+
+        <!-- User info -->
+        <div class="text-right">
+
+            <h3 class="text-xl font-semibold text-gray-700">
+                امیرحسین
+            </h3>
+
+            <span class="mt-1 block text-[10px] text-gray-400">
+                ۱۴۰۳/۰۵/۲۱
+            </span>
+
+        </div>
+
+
+      
+
+    </div>
+
+
+    <!-- Divider -->
+    <div class="my-6 h-px bg-gray-100"></div>
+
+
+    <!-- Comment -->
+    <div class="text-right">
+
+        <h4 class="mb-2 text-lg font-semibold text-gray-700">
+            سلام وقت بخیر
+        </h4>
+
+        <p class="text-lg leading-7 text-gray-600">
+            دوره از چه تاریخی شروع میشه؟
+            و حدوداً تا چه تاریخی ادامه پیدا میکنه؟
+        </p>
+
+    </div>
+
+</article>
+
+<article
+    dir="rtl"
+    class="rounded-md border border-gray-200 bg-white p-8"
+>
+
+    <!-- User -->
+    <div class="flex items-center  gap-6">
+
+       <!-- Avatar -->
+        <div
+            class="flex h-15 w-15 items-center justify-center rounded-full bg-gray-200 text-gray-400"
+        >
+            👤
+        </div>
+
+        <div class="text-right">
+
+            <h3 class="text-xl font-semibold text-gray-700">
+                کاربر
+            </h3>
+
+            <span class="mt-1 block text-[10px] text-gray-400">
+                ۱۴۰۳/۰۵/۲۲
+            </span>
+
+        </div>
+
+
+  
+
+    </div>
+
+
+    <!-- Divider -->
+    <div class="my-4 h-px bg-gray-100"></div>
+
+
+    <!-- User Comment -->
+    <p class="text-right text-lg leading-7 text-gray-600">
+        درود. من نسخه دوره اول شهریور شروع شده بود رو تهیه کردم
+        و الان چند جلسه از دوره گذشته. می‌خواستم بدونم جلسات
+        قبلی هم در دسترس قرار می‌گیرند؟
+    </p>
+
+
+    <!-- Teacher Reply -->
+    <div class="mt-5 rounded-md bg-gray-50 p-6">
+
+        <!-- Teacher Header -->
+        <div class="flex items-center  gap-6">
+
+  <!-- Avatar -->
+        <img
+            src="./image/gravatar.png" class="flex h-15 w-15 items-center justify-center object-contain rounded-full bg-gray-200 text-gray-400"
+        >
+            
+        </img>
+            <div class="text-right">
+
+                <h4 class="text-lg font-semibold text-gray-700">
+                    مدرس دوره
+                </h4>
+
+                <span class="mt-1 block text-[10px] text-gray-400">
+                    پاسخ مدرس
+                </span>
+
+            </div>
+
+
+          
+
+        </div>
+
+
+        <!-- Divider -->
+        <div class="my-4 h-px bg-gray-200"></div>
+
+
+        <!-- Reply -->
+        <p class="text-right text-lg leading-7 text-gray-600">
+            سلام وقت بخیر.
+            جلسات قبلی دوره نیز در دسترس شما قرار خواهند گرفت
+            و می‌توانید آنها را مشاهده کنید.
+        </p>
+
+    </div>
+
+</article>
+<article
+    dir="rtl"
+    class="rounded-md border border-gray-200 bg-white p-8"
+>
+
+    <!-- User -->
+    <div class="flex items-center  gap-6">
+
+       <!-- Avatar -->
+        <div
+            class="flex h-15 w-15 items-center justify-center rounded-full bg-gray-200 text-gray-400"
+        >
+            👤
+        </div>
+
+        <div class="text-right">
+
+            <h3 class="text-xl font-semibold text-gray-700">
+                کاربر
+            </h3>
+
+            <span class="mt-1 block text-[10px] text-gray-400">
+                ۱۴۰۳/۰۵/۲۲
+            </span>
+
+        </div>
+
+
+  
+
+    </div>
+
+
+    <!-- Divider -->
+    <div class="my-4 h-px bg-gray-100"></div>
+
+
+    <!-- User Comment -->
+    <p class="text-right text-lg leading-7 text-gray-600">
+        درود. من نسخه دوره اول شهریور شروع شده بود رو تهیه کردم
+        و الان چند جلسه از دوره گذشته. می‌خواستم بدونم جلسات
+        قبلی هم در دسترس قرار می‌گیرند؟
+    </p>
+
+
+    <!-- Teacher Reply -->
+    <div class="mt-5 rounded-md bg-gray-50 p-6">
+
+        <!-- Teacher Header -->
+        <div class="flex items-center  gap-6">
+
+  <!-- Avatar -->
+        <img
+            src="./image/gravatar.png" class="flex h-15 w-15 items-center justify-center object-contain rounded-full bg-gray-200 text-gray-400"
+        >
+            
+        </img>
+            <div class="text-right">
+
+                <h4 class="text-lg font-semibold text-gray-700">
+                    مدرس دوره
+                </h4>
+
+                <span class="mt-1 block text-[10px] text-gray-400">
+                    پاسخ مدرس
+                </span>
+
+            </div>
+
+
+          
+
+        </div>
+
+
+        <!-- Divider -->
+        <div class="my-4 h-px bg-gray-200"></div>
+
+
+        <!-- Reply -->
+        <p class="text-right text-lg leading-7 text-gray-600">
+            سلام وقت بخیر.
+            جلسات قبلی دوره نیز در دسترس شما قرار خواهند گرفت
+            و می‌توانید آنها را مشاهده کنید.
+        </p>
+
+    </div>
+
+</article>
+
+</section>
+
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<aside class=" sticky top-30 w-full lg:w-130  flex-shrink-0 grow-1   flex flex-col items-center gap-y-10 ">
+<div class="bg-white flex flex-col gap-12 items-center py-[30px] rounded-xl w-full ">
+
+<img src="./image/gravatar.png" alt="" class="rounded-full object-cover size-35">
+<div class="text-center ">
+    <h2 class="text-black font-bold text-3xl">مهدی شمس</h2>
+    <p class="mt-6">مهندس نرم افزار در اسنپ فود</p>
+</div>
+
+<a class="bg-blue-100/50 !text-blue-400 w-70   text-center  py-5 rounded-2xl cursor-pointer hover:  " href="#">
+ همه دوره های مدرس 
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--linear" width="0.95em" height="1em" viewBox="0 0 16 17" style="font-size: 1rem;"><g fill="none"><path d="M6.38065 4.39084L2.33398 8.43751L6.38065 12.4842" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M13.6673 8.4375H2.44727" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
+
+</a>
+</div>
+
+
+<div class=" flex items-center justify-between w-full border-solid border-2 border-gray-200/45 rounded-2xl px-8 py-14">
+<div class=" flex items-center gap-4 text-black ">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--linear size-5" width="1em" height="1em" viewBox="0 0 20 20" style="font-size: 1rem;"><g fill="none"><path d="M14.1328 5.14166C15.7995 6.3 16.9495 8.14166 17.1828 10.2667" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M2.91016 10.3083C3.12682 8.19168 4.26016 6.35002 5.91016 5.18335" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M6.82422 17.45C7.79089 17.9417 8.89089 18.2167 10.0492 18.2167C11.1659 18.2167 12.2159 17.9667 13.1576 17.5083" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M10.051 6.41666C11.3305 6.41666 12.3677 5.37945 12.3677 4.09999C12.3677 2.82053 11.3305 1.78333 10.051 1.78333C8.77158 1.78333 7.73438 2.82053 7.73438 4.09999C7.73438 5.37945 8.77158 6.41666 10.051 6.41666Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M4.0237 16.6C5.30316 16.6 6.34037 15.5628 6.34037 14.2833C6.34037 13.0039 5.30316 11.9667 4.0237 11.9667C2.74424 11.9667 1.70703 13.0039 1.70703 14.2833C1.70703 15.5628 2.74424 16.6 4.0237 16.6Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M15.9768 16.6C17.2563 16.6 18.2935 15.5628 18.2935 14.2833C18.2935 13.0039 17.2563 11.9667 15.9768 11.9667C14.6974 11.9667 13.6602 13.0039 13.6602 14.2833C13.6602 15.5628 14.6974 16.6 15.9768 16.6Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
+
+<span class="">اشتراک گذاری</span>
+</div>
+
+
+<div class="flex gap-5   ">
+<div class="bg-gray-300 p-4 rounded-xl hover:bg-sky-500 transition-colors cursor-pointer">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--bold size-6 text-white" width="1em" height="1em" viewBox="0 0 24 24" style="font-size: 1rem;"><g fill="currentColor"><path d="m9.417 15.181-.397 5.584c.568 0 .814-.244 1.109-.537l2.663-2.545 5.518 4.041c1.012.564 1.725.267 1.998-.931l3.622-16.972.001-.001c.321-1.496-.541-2.081-1.527-1.714l-21.29 8.151c-1.453.564-1.431 1.374-.247 1.741l5.443 1.693 12.643-7.911c.595-.394 1.136-.176.691.218z"></path></g></svg></div>
+<div class="bg-gray-300 p-4 rounded-xl hover:bg-sky-500 transition-colors cursor-pointer">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--bold size-6 text-white" width="1em" height="1em" viewBox="0 0 24 24" style="font-size: 1rem;"><g fill="currentColor"><path d="m23.994 24v-.001h.006v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07v-2.185h-4.773v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243v7.801z"></path>
+    <path d="m.396 7.977h4.976v16.023h-4.976z"></path>
+    <path d="m2.882 0c-1.591 0-2.882 1.291-2.882 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909c-.001-1.591-1.292-2.882-2.882-2.882z"></path></g></svg>
+</div>
+<div class="bg-gray-300 p-4 rounded-xl hover:bg-sky-500  transition-colors cursor-pointer">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--bold size-6 text-white" width="1em" height="1em" viewBox="0 0 24 24" style="font-size: 1rem;"><g fill="none"><path d="M21.742 21.75L14.179 10.571L21.235 2.25H18.779L13.088 8.964L8.548 2.25H2.359L9.649 13.026L2.25 21.75H4.706L10.741 14.632L15.559 21.75H21.75H21.742ZM7.739 3.818L18.81 20.182H16.363L5.29 3.818H7.737H7.739Z" fill="currentColor"></path></g></svg></div>
+
+
+</div>
+</div>
+
+</aside>
+
+
+</main>
+
+
+
+
+
+
+
+
+
+  
 
 <div class="container">
    <footer>
@@ -788,5 +1151,6 @@
     <script src="./vendor/Bootstrap/bootstrap.bundle.min.js"></script>
 <script src="./vendor/SwiperSlider/swiper-bundle.min.js"></script>
 <script src="./script/index.js"></script>
+<script src="./script/course.js"></script>
 </body>
 </html>
