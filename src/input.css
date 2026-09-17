@@ -34,3 +34,11 @@ width: 100%;
 
 
 }
+
+@utility input{
+
+outline:none;
+border:none;
+
+
+}
