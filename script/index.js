@@ -1,6 +1,88 @@
 const mobile_menu__btn=document.querySelector(".mobile_menu__btn")
 const mobile_menu=document.querySelector(".mobile_menu")
 const index_article__btn=document.querySelector(".index_article__btn")
+const h1Title=document.getElementById('title')
+const h2Title=document.getElementById('title2')
+
+const homeUser=document.getElementById('homeUser')
+const homeCourses=document.getElementById('homeCourses')
+const homeMin=document.getElementById('homeMin')
+
+
+
+
+
+window.addEventListener("load",()=>{
+
+let firstTitle="برنامه نویسی"
+let secTitle="شروع کن و مسیر شغلی‌ات رو بساز!"
+let index=0
+
+typewriter(firstTitle,index,h1Title)
+
+setTimeout(()=>{
+
+  typewriter(secTitle,index,h2Title)
+
+},1500)
+
+updateHomeStatus(40,homeCourses)
+updateHomeStatus(1171,homeUser)
+updateHomeStatus(1_355,homeMin)
+
+})
+
+
+function typewriter(text,index,title){
+
+if(index<text.length){
+
+title.innerHTML+=text[index]
+index++
+
+
+setTimeout(()=>{
+
+typewriter(text,index,title)
+// typewriter(text,index,h2Title)
+
+
+
+
+
+},120
+
+
+
+)
+}
+
+
+
+
+
+
+
+}
+
+function updateHomeStatus(max,elem){
+  let counter=0
+
+let interval=setInterval(()=>{
+
+ if(counter===max){
+clearInterval(interval)
+
+ }
+
+elem.innerHTML=counter;
+counter++
+
+},1)
+
+
+}
+
 
 
 
@@ -138,3 +220,9 @@ index_article__btn.classList.toggle("index_article--active")
 document.querySelector(".index_article_texts").classList.toggle("index_article--active")
 document.querySelector(".index_article_content--hide").classList.toggle("index_article--active")
 })
+
+
+
+
+
+
